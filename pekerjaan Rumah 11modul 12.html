@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV - Zulfa Fetty El Abidah</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+    :root {
+    --white: #ffffff;
+    --blue: #1f3c88;
+
+    }
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+    }
+
+    body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+    }
+
+    /* MAIN LAYOUT */
+    .cv {
+  display: flex;
+  max-width: 1100px;
+  margin: 30px auto;
+  background-color: var(--white);
+    }
+
+/* LEFT COLUMN */
+.left {
+  width: 35%;
+  background-color: var(--blue);
+  color: white;
+  padding: 30px;
+}
+
+.left img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.left h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.left h2 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #ffb703;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  margin: 25px 0 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #ffb703;
+}
+
+.left p,
+.left li {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.left ul {
+  margin-left: 18px;
+}
+
+/* RIGHT COLUMN */
+.right {
+  width: 65%;
+  padding: 30px;
+}
+
+.box-title {
+  background: #ffb703;
+  color: var(--blue);
+  padding: 8px 12px;
+  font-weight: bold;
+  margin: 25px 0 10px;
+}
+
+.right h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.right small {
+  color: gray;
+}
+
+.right ul {
+  margin-left: 18px;
+  margin-bottom: 15px;
+}
+
+.right li {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .cv {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="cv">
+  
+  <!-- LEFT -->
+  <aside class="left">
+    <img src="photoprofilcv.png" class="img-thumbnail" alt="Foto Profil">
+
+    <h1 class="h2 fw-bold">ZULFA<br>FETTY EL ABIDAH</h1>
+    <h2 class="h56 text-warning">FRONTEND DEVELOPER</h2>
+
+    <div class="section-title">ABOUT ME</div>
+    <p>
+      Frontend Developer with strong skills in React, Next.js, JavaScript, and UI/UX
+      implementation using Figma. Experienced in building responsive and user-friendly
+      interfaces. Passionate about clean code and continuous learning.
+    </p>
+
+    <div class="section-title">SKILLS</div>
+    <ul>
+      <li>React & Next.js</li>
+      <li>JavaScript & TypeScript</li>
+      <li>HTML, CSS, Responsive Design</li>
+      <li>UI/UX with Figma</li>
+      <li>Git, GitHub, Vercel</li>
+    </ul>
+
+    <div class="section-title">CONTACT</div>
+    <p>📍 Nganjuk, Indonesia</p>
+    <p>📧 zulfafa97@gmail.com</p>
+    <p>📱 +62 856-4504-3208</p>
+    <p>🌐 sellingwebsiteforhdembroidery.vercel.app</p>
+  </aside>
+
+  <!-- RIGHT -->
+  <main class="right">
+
+    <div class="box-title">STRENGTH & WEAKNESS</div>
+    <ul>
+      <li><strong>Strength:</strong> Fast learner, good communication, strong problem solving</li>
+      <li><strong>Weakness:</strong> Sometimes too detail-oriented, improving time management</li>
+    </ul>
+
+    <div class="box-title">(3) EXPERIENCE</div>
+
+    <h3 class="h5 fw-semibold">Freelance Frontend Developer</h3>
+    <small>Hamdala Bordir • December 2025 – Present</small>
+    <ul>
+      <li>Designed and developed responsive business website</li>
+      <li>Converted Figma design into real web interface</li>
+      <li>Optimized UI for mobile and desktop</li>
+      <li>Deployed using Vercel</li>
+    </ul>
+
+    <div class="box-title">(4) EDUCATION</div>
+
+    <p class="h3">JayJay Academy</p>
+    <small>Frontend Web Developer Program</small>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React & Next.js</li>
+      <li>UI/UX Design Fundamentals</li>
+    </ul>
+
+    <div class="box-title">(5) REFERENCE</div>
+    <p>
+      Portfolio Website<br>
+      📧 zulfafa97@gmail.com
+    </p>
+
+    <div class="mb-4">
+    <button class="btn btn-primary me-2 mb-2">Lihat Portofolio</button>
+    <button class="btn btn-secondary me-2 mb-2">Info Pekerjaan</button>
+    <button class="btn btn-success me-2 mb-2">Tawarkan Kerja</button>
+    <button class="btn btn-info mb-2">Kolaborasi</button>
+    </div>
+
+    <div class="box-title">(6) contact me</div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1"
+        class="form-label">
+        Email address
+    </label>
+    <input
+    type="email"
+    class="form-control"
+    id="exampleFormControlInput1"
+    placeholder="name@example.com"
+    >
+    </div>
+    <div class="mb-3">
+        <label
+            for="exampleFormControlTextarea1"
+            class="form-label">
+            Tell me about
+        </label>
+        <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+        ></textarea>
+    </div>
+
+  </main>
+
+
+</body>
+</html>
